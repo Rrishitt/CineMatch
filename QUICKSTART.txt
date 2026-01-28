@@ -1,0 +1,125 @@
+╔══════════════════════════════════════════════════════════════╗
+║                   CINEMATCH - QUICK START                    ║
+║          Movie & Series Recommendation Application           ║
+╚══════════════════════════════════════════════════════════════╝
+
+📦 WHAT'S INCLUDED
+✅ Full Bollywood + Hollywood support
+✅ Movies + TV Series recommendations
+✅ 650,000+ titles via TMDB API
+✅ Smart recommendation algorithm
+✅ Beautiful, production-grade UI
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🚀 3 STEPS TO RUN
+
+1️⃣  INSTALL DEPENDENCIES
+   Open terminal in this folder and run:
+   
+   npm install
+
+2️⃣  GET FREE TMDB API KEY (takes 2 minutes)
+   • Go to: https://www.themoviedb.org/signup
+   • Create account (free forever)
+   • Go to: Settings → API → Create API Key
+   • Choose "Developer"
+   • Copy your API key
+
+3️⃣  ADD YOUR API KEY
+   • Open: src/App.jsx
+   • Line 5: Replace 'YOUR_TMDB_API_KEY_HERE' with your key
+   • Example: const TMDB_API_KEY = 'abc123xyz789';
+   • Save the file
+
+4️⃣  RUN THE APP
+   
+   npm run dev
+   
+   App opens at: http://localhost:5173
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✨ HOW IT WORKS
+
+STEP 1: Choose Industry
+→ Bollywood | Hollywood | Both
+
+STEP 2: Choose Type  
+→ Movies | Series | Both
+
+STEP 3: Select 3-10 Favorites
+→ Search any title
+→ Browse 200+ popular suggestions
+→ App analyzes your taste
+
+STEP 4: Fine-tune Preferences
+→ Genres (multi-select)
+→ Mood slider (dark ↔ light)
+→ Era checkboxes
+→ Series preferences (if applicable)
+
+STEP 5: Get 5 Perfect Recommendations
+→ Like 👍 or Dislike 👎 to improve
+→ Refine to generate new suggestions
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 KEY FEATURES
+
+✅ INDUSTRY SEPARATION
+   Bollywood users NEVER see Hollywood (unless opted in)
+   Hollywood users NEVER see Bollywood (unless opted in)
+
+✅ CONTENT TYPE FILTERING
+   Movie users NEVER see series
+   Series users NEVER see movies
+
+✅ SERIES-SPECIFIC PREFERENCES
+   • Episode length (short vs long)
+   • Binge vs casual watching
+   • Season commitment (mini vs long-running)
+
+✅ SMART SCORING
+   Different algorithms for movies vs series
+   Learns from your feedback
+   Improves with every interaction
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+❓ TROUBLESHOOTING
+
+Problem: "API Error" message
+Solution: 
+  • Double-check API key is correct
+  • Ensure it's the v3 key (not v4)
+  • Wait 15 mins after creating key
+  • No extra spaces in the key
+
+Problem: Can't find a movie
+Solution:
+  • Try simpler search terms
+  • Check industry/type filters are correct
+  • Some old Bollywood films may have limited data
+
+Problem: Port already in use
+Solution:
+  • App will auto-suggest another port
+  • Or run: npm run dev -- --port 3000
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 FULL DOCUMENTATION
+
+See README.md for complete details:
+  • Technical architecture
+  • Recommendation algorithm
+  • API integration details
+  • Production deployment guide
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎬 ENJOY YOUR PERSONALIZED RECOMMENDATIONS!
+
+Questions? Check README.md or TMDB docs:
+https://developers.themoviedb.org/3
